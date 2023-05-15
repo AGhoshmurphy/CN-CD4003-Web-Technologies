@@ -1,0 +1,88 @@
+/* item catalog styling */
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+  }
+  
+  .snip1171 {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 280px;
+    max-width: 280px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .snip1171 img {
+    max-width: 100%;
+    vertical-align: top;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .snip1171:hover img {
+    opacity: 1;
+  }
+  
+  .snip1171 figcaption {
+    padding: 20px;
+  }
+  
+  .snip1171 h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  
+  .snip1171 p {
+    font-size: 0.9em;
+    margin: 15px 0;
+  }
+  
+  .snip1171 .price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #f15a22;
+    padding: 10px;
+  }
+  
+  .snip1171.blue .price {
+    background-color: #007bff;
+  }
+  
+  .snip1171.orange .price {
+    background-color: #ff8000;
+  }
+  
+  .snip1171 a {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .snip1171:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .snip1171 a:hover {
+    background-color: #f15a22;
+  }
+  

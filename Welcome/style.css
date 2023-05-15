@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(https://fonts.googleapis.com/css?family=Poppins:700);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro{
+  margin: auto;
+}
+
+.black {
+  width: 50%;
+  float: left;
+  background: #171717;
+  height: 100vh;
+}
+
+.white{
+  width: 50%;
+  float: right;
+  background: #eeff00;
+  height: 100vh;
+}
+
+.box{
+  height: 300px;
+  width: 500px;
+  background: #FFFFFF;
+  position:absolute;
+  top:150px;
+  left:0;
+  right:0;
+  margin:auto;
+  border-radius:20px;
+}
+
+.boxfather{
+  width:100%;
+  position:absolute;
+}
+
+.box h1{
+  color: #23eb4e;
+  font-size: 3em;
+  text-align: center;
+  position: relative;
+  top:70px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box button{
+  left:50%;
+  transform: translateX(-50%);
+  position:relative;
+  top:120px;
+  padding: 8px 20px;
+  cursor:pointer;
+  border:0;
+  outline:none;
+  color:#FFFFFF;
+  background:#171717;
+  transition:all .3s ease;
+  font-size: 19px;
+  font-family: roboto;
+  border-radius:5px;
+}
+
+.box button:hover{
+  background:#FFFFFF;
+  color:#171717;
+}
+
+
